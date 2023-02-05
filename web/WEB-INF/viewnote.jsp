@@ -16,5 +16,7 @@
         <h2>View Note</h2>
         <p>Title: ${Note.title} </p>
         <p>Contents: ${Note.body}</p>
+        <a href="editnote"> EDIT </a>
+        <input type="hidden" name="mode" value="edit">
     </body>
 </html>
